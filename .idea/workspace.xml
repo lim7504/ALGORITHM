@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d8c1d9c-d532-42af-966c-2a5b943bedc9" name="Default Changelist" comment="" />
+    <list default="true" id="3d8c1d9c-d532-42af-966c-2a5b943bedc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/정렬/HIndex/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/정렬/HIndex/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/정렬/가장큰수/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1brdnKlNkmkxL4eCcy0Yhm66BVb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -26,19 +44,46 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="정렬.HIndex" />
       <recent name="해쉬.위장_해쉬문제" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution2">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="정렬.K번째수.Solution" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="정렬.K번째수.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="정렬.가장큰수.Solution" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="정렬.가장큰수.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="정렬.HIndex.Solution" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="정렬.HIndex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,8 +104,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="정렬.HIndex.Solution2" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="정렬.HIndex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
       </list>
@@ -77,6 +138,9 @@
       <option name="presentableId" value="Default" />
       <updated>1589394311129</updated>
       <workItem from="1589394315645" duration="1678000" />
+      <workItem from="1589396207518" duration="507000" />
+      <workItem from="1589460602038" duration="19231000" />
+      <workItem from="1589516797524" duration="4836000" />
     </task>
     <servers />
   </component>
@@ -88,25 +152,49 @@
       <screen x="0" y="23" width="1920" height="990" />
     </state>
     <state x="560" y="183" key="#Project_Structure/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589394321654" />
-    <state width="1863" height="249" key="GridCell.Tab.0.bottom" timestamp="1589396217845">
+    <state x="1148" y="146" key="#xdebugger.evaluate" timestamp="1589466420598">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1863" height="249" key="GridCell.Tab.0.bottom/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589396217845" />
+    <state x="1148" y="146" key="#xdebugger.evaluate/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589466420598" />
+    <state width="1863" height="311" key="GridCell.Tab.0.bottom" timestamp="1589527072756">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state width="1863" height="311" key="GridCell.Tab.0.bottom/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589527072756" />
     <state width="1748" height="249" key="GridCell.Tab.0.bottom/0.23.1920.990/1920.-17.1792.1097@1920.-17.1792.1097" timestamp="1589394442217" />
-    <state width="1863" height="249" key="GridCell.Tab.0.center" timestamp="1589396217844">
+    <state width="1863" height="311" key="GridCell.Tab.0.center" timestamp="1589527072755">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1863" height="249" key="GridCell.Tab.0.center/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589396217844" />
+    <state width="1863" height="311" key="GridCell.Tab.0.center/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589527072755" />
     <state width="1748" height="249" key="GridCell.Tab.0.center/0.23.1920.990/1920.-17.1792.1097@1920.-17.1792.1097" timestamp="1589394442216" />
-    <state width="1863" height="249" key="GridCell.Tab.0.left" timestamp="1589396217843">
+    <state width="1863" height="311" key="GridCell.Tab.0.left" timestamp="1589527072755">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1863" height="249" key="GridCell.Tab.0.left/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589396217843" />
+    <state width="1863" height="311" key="GridCell.Tab.0.left/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589527072755" />
     <state width="1748" height="249" key="GridCell.Tab.0.left/0.23.1920.990/1920.-17.1792.1097@1920.-17.1792.1097" timestamp="1589394442216" />
-    <state width="1863" height="249" key="GridCell.Tab.0.right" timestamp="1589396217845">
+    <state width="1863" height="311" key="GridCell.Tab.0.right" timestamp="1589527072755">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1863" height="249" key="GridCell.Tab.0.right/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589396217845" />
+    <state width="1863" height="311" key="GridCell.Tab.0.right/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589527072755" />
     <state width="1748" height="249" key="GridCell.Tab.0.right/0.23.1920.990/1920.-17.1792.1097@1920.-17.1792.1097" timestamp="1589394442217" />
+    <state width="1863" height="311" key="GridCell.Tab.1.bottom" timestamp="1589527072757">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state width="1863" height="311" key="GridCell.Tab.1.bottom/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589527072757" />
+    <state width="1863" height="311" key="GridCell.Tab.1.center" timestamp="1589527072756">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state width="1863" height="311" key="GridCell.Tab.1.center/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589527072756" />
+    <state width="1863" height="311" key="GridCell.Tab.1.left" timestamp="1589527072756">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state width="1863" height="311" key="GridCell.Tab.1.left/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589527072756" />
+    <state width="1863" height="311" key="GridCell.Tab.1.right" timestamp="1589527072756">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state width="1863" height="311" key="GridCell.Tab.1.right/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589527072756" />
+    <state x="643" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1589516862708">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state x="643" y="350" key="com.intellij.ide.util.TipDialog/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589516862708" />
   </component>
 </project>
