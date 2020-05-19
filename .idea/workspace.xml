@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d8c1d9c-d532-42af-966c-2a5b943bedc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/완전탐색/모의고사/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/퀵정렬구현/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/힙/더맵게/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/배열/twosum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/배열/twosum/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/배열/twosum/문제" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/완전탐색/소수찾기/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/정렬/HIndex/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/정렬/HIndex/Solution2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -45,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="배열.twosum" />
       <recent name="정렬.HIndex" />
       <recent name="해쉬.위장_해쉬문제" />
     </key>
@@ -52,13 +55,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="정렬.가장큰수.Solution" />
+  <component name="RunManager" selected="Application.Solution2 (1)">
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="완전탐색.소수찾기.Solution" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="정렬.가장큰수.*" />
+          <option name="PATTERN" value="완전탐색.소수찾기.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="정렬.HIndex.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="배열.twosum.Solution" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="정렬.HIndex.*" />
+          <option name="PATTERN" value="배열.twosum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="정렬.HIndex.Solution2" />
+    <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="배열.twosum.Solution2" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="정렬.HIndex.*" />
+          <option name="PATTERN" value="배열.twosum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution2 (1)" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +146,9 @@
       <workItem from="1589460602038" duration="19231000" />
       <workItem from="1589516797524" duration="4836000" />
       <workItem from="1589630498992" duration="12292000" />
+      <workItem from="1589659305807" duration="80000" />
+      <workItem from="1589686050398" duration="2475000" />
+      <workItem from="1589864901681" duration="2195000" />
     </task>
     <servers />
   </component>
@@ -154,50 +160,54 @@
       <screen x="0" y="23" width="1920" height="990" />
     </state>
     <state x="560" y="183" key="#Project_Structure/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589394321654" />
+    <state x="731" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589865086276">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state x="731" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589865086276" />
     <state x="1148" y="146" key="#xdebugger.evaluate" timestamp="1589466420598">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
     <state x="1148" y="146" key="#xdebugger.evaluate/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589466420598" />
-    <state width="1863" height="128" key="GridCell.Tab.0.bottom" timestamp="1589659301547">
+    <state width="1863" height="249" key="GridCell.Tab.0.bottom" timestamp="1589867921641">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1863" height="128" key="GridCell.Tab.0.bottom/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589659301547" />
+    <state width="1863" height="249" key="GridCell.Tab.0.bottom/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589867921641" />
     <state width="1748" height="249" key="GridCell.Tab.0.bottom/0.23.1920.990/1920.-17.1792.1097@1920.-17.1792.1097" timestamp="1589394442217" />
-    <state width="1863" height="128" key="GridCell.Tab.0.center" timestamp="1589659301547">
+    <state width="1863" height="249" key="GridCell.Tab.0.center" timestamp="1589867921640">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1863" height="128" key="GridCell.Tab.0.center/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589659301547" />
+    <state width="1863" height="249" key="GridCell.Tab.0.center/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589867921640" />
     <state width="1748" height="249" key="GridCell.Tab.0.center/0.23.1920.990/1920.-17.1792.1097@1920.-17.1792.1097" timestamp="1589394442216" />
-    <state width="1863" height="128" key="GridCell.Tab.0.left" timestamp="1589659301547">
+    <state width="1863" height="249" key="GridCell.Tab.0.left" timestamp="1589867921640">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1863" height="128" key="GridCell.Tab.0.left/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589659301547" />
+    <state width="1863" height="249" key="GridCell.Tab.0.left/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589867921640" />
     <state width="1748" height="249" key="GridCell.Tab.0.left/0.23.1920.990/1920.-17.1792.1097@1920.-17.1792.1097" timestamp="1589394442216" />
-    <state width="1863" height="128" key="GridCell.Tab.0.right" timestamp="1589659301547">
+    <state width="1863" height="249" key="GridCell.Tab.0.right" timestamp="1589867921641">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1863" height="128" key="GridCell.Tab.0.right/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589659301547" />
+    <state width="1863" height="249" key="GridCell.Tab.0.right/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589867921641" />
     <state width="1748" height="249" key="GridCell.Tab.0.right/0.23.1920.990/1920.-17.1792.1097@1920.-17.1792.1097" timestamp="1589394442217" />
-    <state width="1863" height="128" key="GridCell.Tab.1.bottom" timestamp="1589659301548">
+    <state width="1863" height="262" key="GridCell.Tab.1.bottom" timestamp="1589867912808">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1863" height="128" key="GridCell.Tab.1.bottom/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589659301548" />
-    <state width="1863" height="128" key="GridCell.Tab.1.center" timestamp="1589659301548">
+    <state width="1863" height="262" key="GridCell.Tab.1.bottom/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589867912808" />
+    <state width="1863" height="262" key="GridCell.Tab.1.center" timestamp="1589867912808">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1863" height="128" key="GridCell.Tab.1.center/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589659301548" />
-    <state width="1863" height="128" key="GridCell.Tab.1.left" timestamp="1589659301548">
+    <state width="1863" height="262" key="GridCell.Tab.1.center/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589867912808" />
+    <state width="1863" height="262" key="GridCell.Tab.1.left" timestamp="1589867912808">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1863" height="128" key="GridCell.Tab.1.left/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589659301548" />
-    <state width="1863" height="128" key="GridCell.Tab.1.right" timestamp="1589659301548">
+    <state width="1863" height="262" key="GridCell.Tab.1.left/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589867912808" />
+    <state width="1863" height="262" key="GridCell.Tab.1.right" timestamp="1589867912808">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1863" height="128" key="GridCell.Tab.1.right/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589659301548" />
-    <state x="643" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1589630500845">
+    <state width="1863" height="262" key="GridCell.Tab.1.right/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589867912808" />
+    <state x="643" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1589686126265">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state x="643" y="350" key="com.intellij.ide.util.TipDialog/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589630500845" />
+    <state x="643" y="350" key="com.intellij.ide.util.TipDialog/0.23.1920.990/1920.-17.1792.1097@0.23.1920.990" timestamp="1589686126265" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -256,6 +266,11 @@
           <url>file://$PROJECT_DIR$/src/퀵정렬구현/Solution.java</url>
           <line>31</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/배열/twosum/Solution2.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
