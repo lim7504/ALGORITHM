@@ -22,4 +22,5 @@ public class 문제01_문자찾기 {
         char input2 = scanner.next().charAt(0);
         System.out.println(solution(input1, input2));
     }
+
 }
