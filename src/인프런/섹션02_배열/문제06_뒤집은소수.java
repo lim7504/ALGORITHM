@@ -38,7 +38,7 @@ public class 문제06_뒤집은소수 {
         for (int i = 0; i < arr.length; i++) {
             int value = Integer.parseInt(new StringBuilder(String.valueOf(arr[i])).reverse().toString());
             boolean flag = true;
-            for (int j = 2; j < cnt; j++) {
+            for (int j = 2; j < value; j++) {
                 if(value != j && value % j == 0) {
                     flag = false;
                     break;
