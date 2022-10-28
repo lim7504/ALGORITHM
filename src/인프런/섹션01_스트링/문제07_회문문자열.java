@@ -45,4 +45,5 @@ public class 문제07_회문문자열 {
         String str = sc.next();
         System.out.println(solution(str));
     }
+
 }
